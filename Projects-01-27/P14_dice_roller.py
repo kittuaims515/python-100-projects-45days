@@ -1,0 +1,12 @@
+import random #here we are importing random module into the code
+print("P14_dice_roller.py")
+name = str(input("What is your name?\n"))
+age = int(input("What is your age?\n"))
+number = random.randint(1,6)
+print("Hello,", name, "Your are doing great with PYTHON!")
+print("your age is: " + str(age + 2))
+print(round(25.6))
+print(round(22.2))
+print(round(2635.36985,0))
+print(round(26.2, 2))
+print("Display the value after die rolled:", number)

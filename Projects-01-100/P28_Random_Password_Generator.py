@@ -21,7 +21,10 @@ else:
     password4 = password + random.choice(symbols)
     count = count + 1
   password = password1 + password2 + password3 + password4
-  print(password)"""
+  print(password)
+  cd "$HOME\Desktop\Python-100-Projects\Projects-01-100"
+  
+  """
 
 import random
 print("Random password generator")
